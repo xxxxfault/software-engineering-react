@@ -9,7 +9,7 @@ const Home = () => {
         <h4 className="fw-bold p-2">Home Screen</h4>
         <div className="d-flex">
           <div className="p-2">
-            <img className="ttr-width-50px rounded-circle"
+            <img className="ttr-width-50px rounded-circle" alt="circleImage"
                  src="../images/nasa-logo.jpg"/>
           </div>
           <div className="p-2 w-100">
@@ -26,7 +26,7 @@ const Home = () => {
                 <i className="far fa-map-location me-3"></i>
               </div>
               <div className="col-2">
-                <a className={`btn btn-primary rounded-pill fa-pull-right
+                <a href="/#" className={`btn btn-primary rounded-pill fa-pull-right
                                 fw-bold ps-4 pe-4`}>
                   Tuit
                 </a>

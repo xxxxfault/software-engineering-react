@@ -2,7 +2,6 @@ import React from "react";
 import TuitStats from "./tuit-stats";
 import TuitImage from "./tuit-image";
 import TuitVideo from "./tuit-video";
-import {useNavigate, Link} from "react-router-dom";
 
 const Tuit = ({tuit, likeTuit}) => {
     const daysOld = (tuit) => {
@@ -33,7 +32,7 @@ const Tuit = ({tuit, likeTuit}) => {
       <div className="pe-2">
         {
           tuit.postedBy &&
-          <img src={`../images/${tuit.postedBy.username}.jpg`}
+          <img src={`../images/${tuit.postedBy.username}.jpg`} alt ="TuitImage1"
                className="ttr-tuit-avatar-logo rounded-circle"/>
         }
       </div>
